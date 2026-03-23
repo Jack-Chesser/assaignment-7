@@ -81,7 +81,7 @@ submitBtn.addEventListener("click", () => {
         if (userAnswers.heroType === "leader") finalHero = "Captain America";
         if (userAnswers.heroType === "team-player") finalHero = "War Machine";
         if (userAnswers.heroType === "good-heart") finalHero = "Spider-Man";
-        if (userAnswers.heroType === "anti-hero") finalHero = "Hulk";
+        
     }
 
     // DC PATH
