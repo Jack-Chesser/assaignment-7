@@ -3,4 +3,24 @@
     color: white;
     border-color: #007bff;
 }
-  
+
+
+/* Highlight selected answer */
+.answer-btn.selected {
+    background-color: #0d6efd; /* Bootstrap primary blue */
+    color: white;
+    border: 2px solid #084298;
+}
+
+/* Optional: make buttons look nicer */
+.answer-btn {
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    transition: 0.2s;
+}
+
+.answer-btn:hover {
+    background-color: #e2e6ea;
+}
